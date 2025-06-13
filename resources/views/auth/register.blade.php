@@ -14,7 +14,7 @@
                     <span>{{$message}}</span>
                 @enderror
             </div>
-
+<br>
             <div>
                 <input type="text" name="email" placeholder="email" value = "{{old('email')}}">
                 @error('email')
@@ -28,9 +28,11 @@
                     <span>{{$message}}</span>
                 @enderror
             </div>
+<br>
             <div>
                 <input type="text" name="email_confirmation" placeholder="Email confirmation" value = "{{old('email')}}"/>
             </div>
+<br>
             <button>Registrar</button>
         </form>
     </div>
