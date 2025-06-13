@@ -6,7 +6,7 @@
     @endif
 
     <div>
-        <form action="/login" method="post">
+        <form action="{{route('login')}}" method="post">
             @csrf
             <div>
                 <input type="text" name="email" placeholder="email" value = "{{old('email')}}">

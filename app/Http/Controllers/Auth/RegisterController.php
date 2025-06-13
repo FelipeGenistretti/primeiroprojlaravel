@@ -16,6 +16,6 @@ class RegisterController extends Controller
         if($request->tryToRegister()){
             return to_route("dashboard");
         }
-        //return back()->with("message"=>"deu ruim hein");
+        return back()->with(["message"=>"deu ruim hein"]);
     }
 }
