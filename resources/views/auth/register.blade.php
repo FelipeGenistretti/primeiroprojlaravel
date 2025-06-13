@@ -31,7 +31,7 @@
             <div>
                 <input type="text" name="email_confirmation" placeholder="Email confirmation" value = "{{old('email')}}"/>
             </div>
-            <button>Logar</button>
+            <button>Registrar</button>
         </form>
     </div>
 </div>
